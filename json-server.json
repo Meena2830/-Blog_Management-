@@ -1,0 +1,6 @@
+{
+  "watch": "db.json",
+  "routes": {
+    "/api/*": "/$1"
+  }
+}

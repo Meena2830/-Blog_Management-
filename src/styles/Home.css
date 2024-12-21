@@ -1,0 +1,146 @@
+/* src/styles/Home.css */
+
+/* Container for the page */
+div {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading for Blog Posts */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Link to Add New Post button */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the unordered list of posts */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of each post */
+h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Content of each post */
+p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Edit link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Delete button styling */
+button {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  font-size: 0.9em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* General button style */
+button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Add New Post button */
+.add-post-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.add-post-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Edit button */
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+/* Delete button */
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.delete-btn:focus {
+  outline: none;
+}
+
+.view-button {
+  background-color: #007bff; /* Blue background */
+  margin-left: 5px;
+  color: white;
+  border: none;
+}
